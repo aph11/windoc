@@ -76,8 +76,8 @@ const config = {
         },
         items: [
           { label: "Windsurf", to: "docs/windsurf", position: "left" },
-          { label: "Docs" type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left' },
-          { label: "Voile" to: 'docs/voile/legere', position: 'left' },
+          { label: "Docs", type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left' },
+          { label: "Voile", to: 'docs/voile/legere', position: 'left' },
           {
             href: 'https://github.com/aph11/windoc',
             label: 'GitHub',
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Ce site est sous licence CC-BY-SA creativecommons.org/licenses/by-sa/4.0`,
+        copyright: `Licence : CC-BY-SA 4.0`,
       },
       prism: {
         theme: prismThemes.github,
