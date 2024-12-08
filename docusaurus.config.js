@@ -75,52 +75,24 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { label: "Windsurf", to: "docs/windsurf", position: "left" },
-          { label: "Docs", type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left' },
-          { label: "Voile", to: 'docs/voile/legere', position: 'left' },
-          {
-            href: 'https://github.com/aph11/windoc',
-            label: 'GitHub',
-            position: 'right',
-          },
+          { label: "Windsurf", type: 'docSidebar', sidebarId: 'windsurfSidebar', to: "docs/windsurf", position: "left", },
+          { label: "Voile", type: 'docSidebar', sidebarId: 'voileSidebar', to: 'docs/voile', position: 'left', },
+          { label: "Méteo", type: 'docSidebar', sidebarId: 'meteoSidebar', to: "docs/meteo", position: "left", },
+          { href: 'https://github.com/aph11/windoc', label: 'GitHub', position: 'right', },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Plus',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/aph11/windoc',
-              },
+              { label: 'GitHub', href: 'https://github.com/aph11/windoc', },
+	      //{ label: 'A propos', to: "page d'a propos", },
+	      //{ label: 'Licence', to: "page de licence", },
             ],
           },
         ],
-        copyright: `Licence : CC-BY-SA 4.0`,
       },
       prism: {
         theme: prismThemes.github,
