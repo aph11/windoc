@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Windoc',
-  tagline: 'Documentation sur les sports nautiques',
+  tagline: 'Documentation pour les sports nautiques',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -43,18 +43,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -67,7 +55,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Windoc',
         logo: {
@@ -79,19 +67,6 @@ const config = {
           { label: "Voile", type: 'docSidebar', sidebarId: 'voileSidebar', to: 'docs/voile', position: 'left', },
           { label: "Méteo", type: 'docSidebar', sidebarId: 'meteoSidebar', to: "docs/meteo", position: "left", },
           { href: 'https://github.com/aph11/windoc', label: 'GitHub', position: 'right', },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Plus',
-            items: [
-              { label: 'GitHub', href: 'https://github.com/aph11/windoc', },
-	      //{ label: 'A propos', to: "page d'a propos", },
-	      //{ label: 'Licence', to: "page de licence", },
-            ],
-          },
         ],
       },
       prism: {
