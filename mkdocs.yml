@@ -1,0 +1,5 @@
+site_name: Windoc
+
+site_url: https://windoc.github.io/
+theme:
+  name: material
