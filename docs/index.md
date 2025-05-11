@@ -1,17 +1,6 @@
-# Welcome to MkDocs
+Windoc est une bibliotèque de documentation sur la voile.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Elle a vocation à servir de lieux de rangement et synthèse de mes connaissances pour usage ulterieure.
+Je la publie sur le net dans l'idée quelle servira éventuellement à d'autres.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+J'ai la moitié d'un bato, SamSam un First 32. Et de nombreuses planches à voile.

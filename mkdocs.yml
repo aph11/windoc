@@ -1,5 +1,47 @@
 site_name: Windoc
+copyright: Windoc est sous licence libre [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.fr)
+site_url: https://aph11.github.io/windoc/
 
-site_url: https://windoc.github.io/
 theme:
   name: material
+  palette:
+    primary: teal
+    accent: orange 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to system preference
+  language: fr
+  logo: img/logo.svg
+  favicon: img/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.suggest
+
+plugins:
+  - privacy
+  - optimize
+  - search
+      lang:
+        - en
+        - fr
+  - tags
+
+
