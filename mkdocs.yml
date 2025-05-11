@@ -5,22 +5,26 @@ site_url: https://aph11.github.io/windoc/
 theme:
   name: material
   palette:
-    primary: teal
-    accent: orange 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-    - scheme: default
+      scheme: default
+      primary: teal
+      accent: orange 
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-    - scheme: slate
+      scheme: slate
+      primary: teal
+      accent: orange 
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
+      primary: teal
+      accent: orange 
       toggle:
         icon: material/brightness-auto
         name: Switch to system preference
@@ -37,11 +41,7 @@ theme:
 
 plugins:
   - privacy
-  - optimize
   - search
-      lang:
-        - en
-        - fr
   - tags
 
 
