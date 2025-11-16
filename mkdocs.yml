@@ -35,9 +35,15 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
-    - navigation.path
     - navigation.top
     - search.suggest
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - privacy
