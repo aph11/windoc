@@ -38,6 +38,33 @@ theme:
     - navigation.top
     - search.suggest
 
+nav:
+ - Accueil: index.md
+ - Habitable:
+   - Réglages: habitable/reglages.md
+   - Bidouilles:
+     - Electricité: habitable/bidouilles/electricite.md
+     - Moteur: habitable/bidouilles/moteur.md
+   - Cuisine:
+     - Recettes: habitable/cuisine/recettes.md
+ - Météo: meteo/index.md
+ - Théorie: theorie/index.md
+ - Voilerie:
+   - Materiaux: voilerie/materiaux.md
+   - Machines:
+     - Introduction: voilerie/machines/introduction.md
+     - Entretien: voilerie/machines/entretien.md
+     - Réglages: voilerie/machines/reglages.md
+ - Windsurf: windsurf/index.md
+ - Lexiques:
+   - Général: lexiques/general.md
+   - Windsurf: lexiques/pav.md
+   - Voile traditionnelle: lexiques/voile-trad.md
+ - Les ptits guides: les-ptits-guides.md
+ - Ressources:
+   - Livres: ressources/livres.md
+   - Modèles 3D: ressources/cad/modeles-3d.md
+
 markdown_extensions:
   - attr_list
   - md_in_html

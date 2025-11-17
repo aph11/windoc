@@ -1,8 +1,11 @@
 ---
-title: Les petits guides rapides
+title: Les petits guides
+hide:
+  - navigation
+  - toc
 ---
 
-Quelques guides sommaire d'introduction à différents sujets du monde de la voile au format PDF.
+Quelques guides sommaireis d'introduction à différents sujets du monde de la voile au format PDF.  
 Une séléction *opinionated* d'infos à savoir pour se débrouiller *suffisemment*.
 
 - Le ptit guide du faisage de noeuds.
